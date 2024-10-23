@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+*{
+    padding: 40px;
+    align-items: center;
+    font-family: montserrat;
+}
+main{
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    padding: 25px;
+    margin: auto;
+    box-shadow: 10px, 10px, 10px, rgb(255, 255, 255);
+}
+body{
+    background-image: linear-gradient(to right, #021418, #1F2825, #1c2e28);
+}
+h1{
+    text-align: center;
+    color: #021418;
+}
+p{
+    text-align: center;
+    color: #021418;
+}
+button{
+    color: #021418;
+    padding: 8px;
+    border-radius: 8px;
+    margin: auto;
+    
+}

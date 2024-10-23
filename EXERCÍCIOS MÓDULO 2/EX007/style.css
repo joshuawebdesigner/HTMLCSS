@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body{
+    text-align: center;
+    align-items: center;
+    background-color: rgb(22, 22, 22);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    color: aliceblue;
+}
+
+p{
+    color: aliceblue;
+}
+
+div{
+    color: aliceblue;
+}
+
+div:hover{
+    color: purple;
+}
+
+div > p{
+    display: none;
+}
+
+div:hover > p{
+    display: block;
+    color: purple;
+    background-color: aliceblue;
+    border-radius: 25px;
+}

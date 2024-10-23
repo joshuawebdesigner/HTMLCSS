@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body{
+    padding: 100px;
+    margin: 40px;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1#headline{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+}
+
+h1{
+    color: aliceblue;
+}
+
+h2{
+    color: aliceblue;
+}
+
+p{
+    color: aliceblue;
+}
+
+.basico{
+    color: chartreuse;
+}
+
+.avancado{
+    color: rgb(255, 0, 0);
+}

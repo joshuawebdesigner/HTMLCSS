@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+    <link rel="shortcut icon" href="Images/favicon.ico"image/x-icon">
+</head>
+<body>
+    <h1>Imagêns dinâmicas</h1>
+    <p>Tente abrir este site em diferentes dispositivos, ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+
+       <source media="(max-width: 750px)" srcset="Images/P.jpg" type="image/jpg">
+       <source media="(max-width: 1050px )" srcset="Images/M.jpg" type="image/jpg"> 
+       <img src="Images/P.jpg" alt="Imagem felixível">
+    
+    </picture>
+    <hr>
+    <h1>Aúdios no site</h1>
+    <p>Vamos aprender a reproduzir áudio em HTML5</p>
+    <audio src="Images/audios/guanacast-33.mp3" controls autoplay></audio>
+</body>
+</html>
