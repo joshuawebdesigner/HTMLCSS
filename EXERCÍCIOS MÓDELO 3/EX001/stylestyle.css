@@ -1,0 +1,16 @@
+body{
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('imagens/wallpaper002.jpg')
+}
+main{
+    background-color: white;
+    width: 400px;
+    padding: 25px;
+    margin: auto;
+    border-radius: 25px;
+    box-shadow: 1px 1px 1px 1px black;
+}
