@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de alinhamento vertical e horizontal</title>
+    <style>
+
+        #secao{
+            position: relative;
+            padding: 25px;
+            height: 100vh;
+            background-image: linear-gradient(to left, purple, rgb(69, 5, 69));
+            border-radius: 25px;
+        }
+
+        #conteudo{
+            height: 200px;
+            width: 300px;
+            padding: 25px;
+            border-radius: 25px;
+            background-color: white;
+            position: absolute;
+            margin: auto;
+            text-align: center;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+
+        }
+
+        #botao{
+            background-color: brown;
+            color: white;
+            padding: 15px;
+            width: 100%;
+            border-radius: 8px;
+
+        }
+
+        #botao:hover{
+            background-image: linear-gradient(to left, brown, rgb(186, 84, 84) );
+            transform: translate(0px, -10px);
+            text-transform: uppercase;
+        }
+
+        h1{
+            font-size: 12px;
+            text-transform: uppercase;
+            color: blue;
+        }
+        h2{
+            font-size: 30px;
+            text-transform: uppercase;
+            color: rgb(160, 160, 160);
+        }
+    </style>
+</head>
+<body>
+   <section id="secao">
+
+    <article id="conteudo">
+
+        <h1>Testando Aqui</h1>
+        <h2>O ensinamento da última aula</h2>
+        <button id="botao">Botão animado</button>
+
+    </article>
+    
+   </section> 
+</body>
+</html>
