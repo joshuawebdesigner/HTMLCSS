@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 body{
-    padding: 150;
-    margin: 40;
+    padding: 150px;
+    margin: 40px    ;
     background-color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
