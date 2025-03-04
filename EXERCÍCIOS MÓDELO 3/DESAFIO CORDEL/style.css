@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: aliceblue;
+}
+
+header{
+    background-color: black;
+    color: aliceblue;
+    padding: 50px;
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+header > h1{
+    font-variant: small-caps; /*serve para deixar todas letras maiusculas, mas as iniciais são maiores, deixa o texto mais suave, mesmo sendo maiusculo*/
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
+
+}
+
+section{
+    padding: 10vh 0vh 10vh 10vh;
+    line-height: 2em;
+}
+
+.normal{
+    background-color: white;
+    color: black;
+}
+
+.imagem{
+    background-color: rgb(57, 57, 57);
+    color: white;
+}
+
+.imagem > p{
+    background-color: rgba(0, 0, 0, 0.201);
+    width: 240px;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
