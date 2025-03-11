@@ -1,6 +1,16 @@
 @charset "UTF-8";
 
 
+@font-face{
+    font-family: 'general';
+    src: url('../fontes\general.otf') format('opentype');
+    font-weight: bold;
+}
+
+:root{
+    --font1:'general';
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -21,6 +31,7 @@ header{
 
 header > h1{
     font-variant: small-caps; /*serve para deixar todas letras maiusculas, mas as iniciais são maiores, deixa o texto mais suave, mesmo sendo maiusculo*/
+    font-family: var(--font1);
 }
 
 a{
