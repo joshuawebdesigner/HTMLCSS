@@ -1,19 +1,12 @@
 @charset "UTF-8";
 
-@font-face {
-    font-family:'general' ;
-    src: url(fontes/general.otf) format(opentype);
-}
+@import url('https://fonts.googleapis.com/css2?family=Trocchi&display=swap');
 
-@font-face {
-    font-family:'generallight' ;
-    src: url(fontes/generallight.otf) format(opentype);
-    font-weight: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
-    --font1:'general';
-    --font2:'general2';
+    --font1:"Trocchi", serif;;
+    --font2:"Montserrat", sans-serif;
 }
 
 *{
@@ -22,6 +15,7 @@
 }
 
 html, body{
+    font-family: var(--font2);
     min-height: 100vh;
     background-color: aliceblue;
 }
@@ -53,6 +47,8 @@ a:hover{
 section{
     padding: 10vh 0vh 10vh 10vh;
     line-height: 2em;
+    font-style: italic;
+    font-size: 40px;
 }
 
 .normal{
@@ -67,7 +63,7 @@ section{
 
 .imagem > p{
     background-color: rgba(0, 0, 0, 0.201);
-    width: 240px;
+    display: inline-block;
     padding: 5px;
     border-radius: 8px;
 }
