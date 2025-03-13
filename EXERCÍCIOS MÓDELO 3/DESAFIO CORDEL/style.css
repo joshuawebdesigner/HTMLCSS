@@ -1,14 +1,19 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family:'general' ;
+    src: url(fontes/general.otf) format(opentype);
+}
 
-@font-face{
-    font-family: 'general';
-    src: url('../fontes\general.otf') format('opentype');
-    font-weight: bold;
+@font-face {
+    font-family:'generallight' ;
+    src: url(fontes/generallight.otf) format(opentype);
+    font-weight: normal;
 }
 
 :root{
     --font1:'general';
+    --font2:'general2';
 }
 
 *{
